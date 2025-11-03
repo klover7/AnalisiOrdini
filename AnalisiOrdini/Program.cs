@@ -1,4 +1,4 @@
-﻿using CsvHelper;
+using CsvHelper;
 using CsvHelper.Configuration;
 using CsvHelper.Configuration.Attributes;
 using System;
@@ -104,9 +104,7 @@ namespace AnalisiOrdini
             return records;
         }
 
-        /// <summary>
-        /// Valida un ordine
-        /// </summary>
+        
         static bool IsValidOrder(Order order)
         {
             if (order == null) return false;
@@ -119,9 +117,7 @@ namespace AnalisiOrdini
                    order.PercentageDiscount <= 100;
         }
 
-        /// <summary>
         /// Mostra le statistiche richieste
-        /// </summary>
         static void DisplayStatistics(List<Order> orders)
         {
             Console.WriteLine("\n--- ANALISI ORDINE ---\n");
