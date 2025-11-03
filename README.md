@@ -1,4 +1,9 @@
-# Order Analyzer A command-line tool for analyzing e-commerce order data from CSV files. The tool processes order records and identifies key statistics including highest totals, quantities, and discount amounts. ## Features - 📊 Identifies the order with the highest total amount (after discount) - 📦 Finds the order with the highest quantity - 💰 Locates the order with the greatest discount savings - ✅ Validates input data for consistency - 🛡️ Robust error handling with descriptive exit codes ## Requirements - [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0) or higher - CsvHelper NuGet package (automatically restored) ## Installation 1. Clone this repository:
+# Order Analyzer
+Uno strumento da riga di comando per analizzare i dati degli ordini da file CSV. Lo strumento elabora i record degli ordini e identifica le statistiche chiave, tra cui i totali più elevati, le quantità e gli importi degli sconti. 
+## Caratteristiche - Identifica l'ordine con l'importo totale più elevato (dopo lo sconto) - Trova l'ordine con la quantità più elevata - Individua l'ordine con il maggiore risparmio grazie allo sconto - Convalida la coerenza dei dati inseriti - Gestione degli errori  con codici di uscita descrittivi 
+## Requisiti - [.NET 6.0 SDK]
+
+Tradotto con DeepL.com (versione gratuita)(https://dotnet.microsoft.com/download/dotnet/6.0) or higher - CsvHelper NuGet package (automatically restored) ## Installation 1. Clone this repository:
 bash
 git clone https://github.com/yourusername/order-analyzer.git
 cd order-analyzer
